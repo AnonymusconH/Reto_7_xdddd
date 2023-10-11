@@ -52,6 +52,8 @@ while n > 2:
 
 print("La lista de números pares anteriores a " + str(n) + " es:" + str(Descendetes))
 
+```
+
 
 ## Punto 4
 
