@@ -1,6 +1,61 @@
 # Reto_7_xdddd
 
+## Punto 1
+
+```
+def cuadrados(n):
+if n <=100
+cuadrados = [i**2 for i in range (1, 101)]
+
+return cuadrados [:n]
+print ("El cuadrado de" + str(n) + "es: " + str(cuadrados)")
+
+```
+
+## Punto 2
+
+```
+n= int
+while n <= 1000:
+    n = n + 1
+    if n % 2 !=0:
+    print("La lista de números pares son: ")
+    print (n)
+
+continue
+
+n = 0
+while n <= 1000:
+  if n % 2 != 0:
+    print(i)
+  n = n + 1
+
+   print("Y la lista de números pares son: ")
+    print (n)
+
+
+```
+
+## Puto 3
+
+```
+n : int
+n = int(input("Ingrese un número natural mayor o igual a 2: "))
+Descendentes = i - 2n
+while n > 2:
+    if n % 2 == 0:
+        n -= 2
+    else:
+        n = n +1
+        n -= 2
+    print(n)
+
+print("La lista de números pares anteriores a " + str(n) + " es:" + str(Descendetes))
+
+
 ## Punto 4
+
+En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18.9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 
 ```
 pais_A : int = 25000000
@@ -16,6 +71,8 @@ while pais_A > pais_B:
 ```
 
 ## Punto 5
+
+Imprimir el factorial de un número natural n dado.
 
 ```
 
